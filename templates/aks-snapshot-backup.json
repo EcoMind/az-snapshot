@@ -49,12 +49,6 @@
   },
   "resources": [
     {
-      "apiVersion": "[variables('apiVersion').resourceGroups]",
-      "type": "Microsoft.Resources/resourceGroups",
-      "name": "[parameters('resourceGroupName')]",
-      "location": "[parameters('location')]"
-    },
-    {
       "apiVersion": "[variables('apiVersion').roleDefinitions]",
       "type": "Microsoft.Authorization/roleDefinitions",
       "name": "[parameters('contributorRoleDefinitionGuid')]",
